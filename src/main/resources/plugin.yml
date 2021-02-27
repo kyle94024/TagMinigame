@@ -1,0 +1,31 @@
+name: TagMinigame
+version: ${project.version}
+main: com.gmail.kyle94024.tagminigame.TagMinigame
+api-version: 1.16
+authors: [ kwbcs ]
+description: Tag Other Players
+commands:
+
+  tag:
+    description: Play tag with a friend
+    usage: /<command>
+
+  tagStart:
+    description: Start a game of tag.
+    usage: /<command>
+
+  tagEnd:
+    description: End a game of tag.
+    usage: /<command>
+
+  tagStatus:
+    description: Get information on a game of tag.
+    usage: /<command>
+
+  tagJoin:
+    description: Join a game of tag while one is running.
+    usage: /<command>
+
+  tagLeave:
+    description: Leave a game of tag.
+    usage: /<command>
